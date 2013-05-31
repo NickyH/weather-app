@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: weather-track_development
+  pool: 5
+  host: localhost
+  username: nickyhughes
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: weather-track_test
+  pool: 5
+  username: nickyhughes
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: weather-track_production
+  pool: 5
+  username: nickyhughes
+  password:
