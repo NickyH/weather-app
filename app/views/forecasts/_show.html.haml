@@ -1,0 +1,12 @@
+- if @format_error == true
+  .error= 'invalid zip code format'
+- elsif @error == true
+  .error= 'zipcode not found'
+- else
+  #state
+    .title-text= 'state'
+    .data-text= @location[0]
+  #city
+    .title-text= 'city'
+    .data-text= @location[1]
+  #temp.data-text= @temp

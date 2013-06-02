@@ -1,5 +1,8 @@
-Weather App
+#panel
 
-= form_tag new_forecast_path do
-  = text_field_tag :zip_code
-  = submit_tag 'Get Forecast'
+  = form_tag new_forecast_path, :method => 'get', :remote => true do
+    = text_field_tag :zip_code, nil, :placeholder => 'Enter US Zip Code', :autofocus => true
+    = submit_tag 'Get Forecast', :id => 'submit_forecast'
+
+
+  #display_forecast

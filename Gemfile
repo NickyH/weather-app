@@ -5,6 +5,8 @@ gem 'pg'
 gem 'jquery-rails'
 gem 'bcrypt-ruby'
 gem 'haml'
+require 'open-uri'
+require 'json'
 
 group :assets do
   gem 'sass-rails'
