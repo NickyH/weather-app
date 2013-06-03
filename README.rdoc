@@ -27,9 +27,7 @@ The app uses Rails, AJAX, Haml and CSS.
 
 == Cloning and running the app
 
-1. Check out the code from github: 
-  
-  <tt>$ git clone git://github.com/NickyH/weather-app.git</tt>
+1. Check out the code from github: <tt>$ git clone git://github.com/NickyH/weather-app.git</tt>
 
 2. Change into the app directory by typing <tt>$ cd weather-app</tt>
 
