@@ -26,4 +26,8 @@ class Forecast
     end
   end
 
+  def validate_zip(zip_code)
+    @format_error = true if !zip_code.match(/^\d{5}$/)
+  end
+
 end
