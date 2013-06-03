@@ -27,6 +27,6 @@ The app uses Rails, AJAX, Haml and CSS.
 
 == Running the tests
 
-1. At the command prompt, change the directory to <tt>weather-track</tt> 
+1. At the command prompt, change the directory to <tt>weather-app</tt> 
 
 2. Type 'rspec' to run the tests
