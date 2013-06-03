@@ -1,5 +1,8 @@
 #panel
 
+  .head= 'GET WEATHER'
+  .instruct= 'Enter a US zip code to get the current temperature'
+
   = form_tag new_forecast_path, :method => 'get', :remote => true do
     = text_field_tag :zip_code, nil, :placeholder => 'Enter US Zip Code', :autofocus => true
     = submit_tag 'Get Forecast', :id => 'submit_forecast'
