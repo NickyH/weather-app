@@ -29,13 +29,17 @@ The app uses Rails, AJAX, Haml and CSS.
 
 1. Check out the code from github: <tt>$ git clone git://github.com/NickyH/weather-app.git</tt>
 
-2. Change into the app directory by typing <tt>$ cd weather-app</tt>
+2. Make sure to supply your own Wunderground API key. Save it in your <tt>.bash_profile</tt> as 
+  <tt>export WDG_KEY=<your-key></tt>
+  For more information on this see
 
-3. To run the app, start the Rails server by typing <tt>$ rails s</tt> in the terminal
+3. Change into the app directory by typing <tt>$ cd weather-app</tt>
 
-4. Go to your web browser and enter <tt>http://localhost:3000/</tt> in the address bar
+4. To run the app, start the Rails server by typing <tt>$ rails s</tt> in the terminal
 
-5. You can now begin to use the app from your local port
+5. Go to your web browser and enter <tt>http://localhost:3000/</tt> in the address bar
+
+6. You can now begin to use the app from your local port
 
 
 == Running the tests
