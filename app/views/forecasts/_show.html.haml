@@ -5,8 +5,10 @@
 - else
   #state
     .title-text= 'state'
-    .data-text= @location[0]
+    .data-text= @location[0] if !@location.nil?
   #city
     .title-text= 'city'
-    .data-text= @location[1]
+    .data-text= @location[1] if !@location.nil?
   #temp.data-text= @temp
+
+= render 'notice' if flash[:notice].present?

@@ -4,5 +4,6 @@
     = text_field_tag :zip_code, nil, :placeholder => 'Enter US Zip Code', :autofocus => true
     = submit_tag 'Get Forecast', :id => 'submit_forecast'
 
-
   #display_forecast
+
+= render 'forecasts/notice' if flash[:notice].present?

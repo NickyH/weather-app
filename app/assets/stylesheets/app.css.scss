@@ -70,7 +70,7 @@ input
   font-size: 22px;
 }
 
-#state, #city, #temp, .error
+#state, #city, #temp, .error, #notice
 {
   min-width: 80px;
   height: 80px;
@@ -131,4 +131,10 @@ input
 {
   background-color: #5BA660;
   width: auto;
+}
+
+#notice
+{
+  color: white;
+  font-size: 22px;
 }
