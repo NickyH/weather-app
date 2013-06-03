@@ -27,12 +27,18 @@ The app uses Rails, AJAX, Haml and CSS.
 
 == Running the tests
 
-1. At the command prompt, change the directory to <tt>weather-app</tt> 
+1. At the terminal, change the directory to <tt>weather-app</tt> 
 
 2. Type <tt>rspec</tt> to run the tests
 
 == Cloning and running the app
 
-1. At the command prompt, change the directory to <tt>weather-app</tt> 
+1. At the terminal, type <tt>$ git clone git://github.com/NickyH/weather-app.git</tt>
 
-2. Type <tt>rspec</tt> to run the tests
+2. Change into the app directory by typing <tt>$ cd weather-app</tt>
+
+3. To run the app, start the Rails server by typing <tt>$ rails s</tt> in the terminal
+
+4. Go to your web browser and enter <tt>http://localhost:3000/</tt> in the address bar
+
+5. You can now begin to use the app from your local port
